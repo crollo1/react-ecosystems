@@ -1,5 +1,6 @@
 import React from 'react';
 import './App.css';
+import TodoList from './todos/TodoList';
 import { hot } from 'react-hot-loader';
 
 // export default function App () {
@@ -10,7 +11,7 @@ import { hot } from 'react-hot-loader';
 
 const App = () => (
     <div className="App">
-      <h1>Hello, World!</h1>
+      <TodoList />
     </div>
 );
 
