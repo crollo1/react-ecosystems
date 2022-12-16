@@ -8,7 +8,9 @@ import './TodoList.css';
 const TodoList = ({ todos = [], onRemovePressed }) => (
 
     <div className='list-wrapper'>
+        <h1 className='main-heading'>My Todo List</h1>
         <NewTodoForm />
+        <h2 className='sub-heading'>Get Going and Tick Off Some Tasks!</h2>
         {todos.map(todo => <TodoListItem todo={todo} key={todo.text} onRemovePressed={onRemovePressed}/>)}
     </div>
 
