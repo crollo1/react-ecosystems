@@ -3,6 +3,7 @@
     padding: 16px;
     text-align: center;
     box-shadow: 0 4px 8px grey;
+    background-color: #FFFFFF;
 }
 
 .new-todo-input {
