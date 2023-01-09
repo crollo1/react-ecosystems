@@ -7,6 +7,7 @@ import {
     LOAD_TODOS_FAILURE
 } from "./actions";
 
+//********* BELOW FUNCTION REPLACED BY SELECTORS ***********/
 // export const isLoading = (state = false, action) => {
 //     const { type } = action;
 
@@ -21,6 +22,7 @@ import {
 //     }
 
 // }
+
 
 const initialState = {isLoading: false, data: [] }; 
 
